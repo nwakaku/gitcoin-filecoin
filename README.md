@@ -27,4 +27,4 @@ With Web3.Storage, I got all the benefits of decentralized storage technologies 
 
 
 ### Project Link
-https://filecoin-shortvideo.vercel.app/
+https://gitcoin-filecoin.vercel.app
