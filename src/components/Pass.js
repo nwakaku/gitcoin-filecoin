@@ -2,6 +2,8 @@ import { Form, Formik } from "formik";
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Web3Storage } from "web3.storage";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import "./pass.css";
 
 const client = new Web3Storage({
@@ -40,8 +42,8 @@ function Pass({dataUrl, setDataUrl}) {
       <div className="wrapper">
         <div className="title-text">
           <div className="title login">
-          <i class="fa-solid fa-apple-whole"></i>
-            TutvideoS</div>
+          <i class="fa-solid fa-droplet"></i>
+            DropIt</div>
           {/* <div className="title signup"></div><p>View Playlist</p> */}
         </div>
         <div className="form-container">

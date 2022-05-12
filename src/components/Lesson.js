@@ -121,8 +121,9 @@ function Lesson() {
 
 
       <div className="starter">
-        <h1 className="widget"><i class="fa-solid fa-apple-whole"></i>
-TutvideoS</h1>
+        <h1 className="widget">      
+        <i class="fa-solid fa-droplet"></i>
+DropIt</h1>
         <h3 className="widget"><Link to='/'>Login</Link></h3>
       </div>
 
